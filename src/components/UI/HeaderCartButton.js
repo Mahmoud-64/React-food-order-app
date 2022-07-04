@@ -19,7 +19,6 @@ const HeaerCartButton = (props) => {
     }, 300);
 
     return () => {
-      console.log("-------unmounting",cartCtx.items);
       clearTimeout(timer);
     };
   }, [cartCtx.items]);
