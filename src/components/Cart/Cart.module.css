@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     max-height: 20rem;
-    overflow: scroll;
-    overflow-x: hidden;
   }
   
   .total {
@@ -28,6 +26,7 @@
     padding: 0.5rem 2rem;
     border-radius: 25px;
     margin-left: 1rem;
+    margin-bottom: 1rem;
   }
   
   .actions button:hover,
@@ -44,4 +43,12 @@
   .actions .button {
     background-color: #8a2b06;
     color: white;
+  }
+
+  .submitting, .submitted{
+    text-align: center;
+  }
+  .errorMessage{
+    color: red;
+    text-align: center;
   }
